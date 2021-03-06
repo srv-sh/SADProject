@@ -1,0 +1,32 @@
+{%  extends 'base.html'  %}
+{%  block content  % }
+            <section class="prime">
+                <p>ফাইল শেয়ার করার উপায় নরমাল এবং পাওয়ার ইউজারদের জন্য </p>
+            </section>
+            <section class="secondary">
+                <p>
+                    Features/ বিশিষ্ট সমূহঃ 
+                    <ul type="square">
+                        <li>১০ GB স্টোরেজ ক্ষমতা</li>
+                        <li>শর্ট লিংক</li>
+                        এখন বড় বড় লিংক ব্যাবহার করার দিন শেষ।
+                        আমরা আপনাকে দেই সুন্দর ও ছোট লিংক।
+                        <li>কীবোর্ড কেন্দ্রীক </li>
+                        আমাদের ওয়েবসাইটে কীবোর্ড শর্টকাট ব্যাবহার করা যাবে। আন্ডারলাইন করা অক্ষর চাপলেই কাজ সম্পূর্ণ করা যাবে। যেমন – Upload, “U” বাটনটি খেয়াল করুন।
+                        <li>CLI এর ব্যাবহার</li>
+                        উপলোডঃ curl --upload-file frame.txt
+                                https://file-nao.io/uniqid/frame.txt
+                        ডাউনলোডঃ wget https://filenao.io/uniqid/frame.txt
+                                
+                        <li>ভার্সন কন্ট্রোল</li>
+                        একই নামের ফাইল আবার উপলোড করলে ফাইলের ভার্সন কন্ট্রোল করা যাবে। 
+                    </ul>
+                </p>
+            </section>
+            <a href="#">
+                <div id="prime-button">Upload</div>
+            </a>
+        
+       
+
+{% endblock %}
